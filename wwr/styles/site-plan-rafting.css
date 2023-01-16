@@ -1,26 +1,26 @@
-@import url('@import url('https://fonts.googleapis.com/css2?family=Jura:wght@600&family=Roboto:wght@300&display=swap');');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #343a40  ;
-  --secondary-color: #212529;
-  --accent1-color: #adb5bd;
-  --accent2-color: #ced4da;
+  --primary-color: #4B362A  ;
+  --secondary-color: #3D7E55;
+  --accent1-color: #975D2E;
+  --accent2-color: #D4CA85;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: Jura;
+  --heading-font: "Rock Salt";
   --paragraph-font: Roboto, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #212529;  /* headlines on a white background */ 
-  --headline-color-on-color: #ced4da; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #212529; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #ced4da; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #212529  ;
-  --nav-link-color: #ced4da;
-  --nav-background-color: #343a40;
-  --nav-hover-link-color: #ced4da;
-  --nav-hover-background-color: #212529;
+  --headline-color-on-white: #4B362A;  /* headlines on a white background */ 
+  --headline-color-on-color: #FBF8F2; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #3D7E55; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #FBF8F2; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #4B362A  ;
+  --nav-link-color: #FBF8F2;
+  --nav-background-color: #4B362A;
+  --nav-hover-link-color: #FBF8F2;
+  --nav-hover-background-color: #275738;
 }
 
 
