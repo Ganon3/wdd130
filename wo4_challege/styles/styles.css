@@ -1,0 +1,18 @@
+* {
+    border: 2px solid darkblue;
+}
+
+body {
+    background-color: pink;
+}
+
+.image img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.exclame {
+    text-align: center;
+    margin: 0 auto;
+
+}
