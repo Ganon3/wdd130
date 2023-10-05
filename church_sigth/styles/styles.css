@@ -33,4 +33,6 @@ main p {
 
 nav, footer {
     background-color:  steelblue;
+    color: white;
+    padding: 10px;
 }
