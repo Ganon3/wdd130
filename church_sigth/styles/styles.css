@@ -18,6 +18,10 @@ p {
 a {
     font-size: 1.5em;
 }
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
 
 h1, nav, footer {
     text-align: center;
@@ -36,6 +40,6 @@ nav, footer {
 }
 
 footer p {
-    font-size: 20px;
+    font-size: 12px;
     margin: 20px auto;
 }
