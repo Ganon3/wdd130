@@ -1,18 +1,62 @@
+/*
 * {
     border: 2px solid darkblue;
 }
+*/
 
 body {
     background-color: pink;
 }
 
-.image img {
-    width: 200px;
-    margin: 0 auto;
-}
-
-.exclame {
+nav {
     text-align: center;
-    margin: 0 auto;
-
+    color: white;
+    font-size: 25px;
 }
+nav h1:hover {
+    color: black;
+}
+
+#exl p, #exl h4 {
+    text-align: center;
+    margin: 5px auto;
+    padding: 10px;
+    color: white;
+}
+
+#list div {
+    display: inline-block;
+    margin: 0 auto;
+}
+#list { 
+    text-align: center;
+}
+#list li {
+    text-align: left;
+}
+
+#image img {
+   width: 20%;
+}
+#image {
+    text-align: center;
+}
+
+#quote {
+    text-align: center;
+    font-size: 25px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: -20px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
+footer h4 {
+    margin-bottom: -12px;
+    
+}
+
