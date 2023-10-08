@@ -12,3 +12,15 @@ https://www.w3schools.com/html/html5_semantic_elements.asp
 
 this is for optimasing seeing your web quality - find good img resizer
 https://pagespeed.web.dev/
+
+layout help and centering ellemnts -W3Schools
+https://www.w3schools.com/css/css_align.asp
+
+try not to foget 
+opacity: 1; to opacity: 0; from not seethrouh to completly seethrough
+all of its child elements inherit the same transparency
+
+auto - the browser calculates the margin
+length - specifies a margin in px, pt, cm, etc.
+% - specifies a margin in % of the width of the containing element
+inherit - specifies that the margin should be inherited from the parent element
