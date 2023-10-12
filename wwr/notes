@@ -24,3 +24,6 @@ auto - the browser calculates the margin
 length - specifies a margin in px, pt, cm, etc.
 % - specifies a margin in % of the width of the containing element
 inherit - specifies that the margin should be inherited from the parent element
+
+If I wanted to include the padding and border amounts in the total width of the element
+box-sizing: border-box
