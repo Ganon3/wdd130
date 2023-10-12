@@ -1,0 +1,22 @@
+#hero img {
+    width: 100%;
+}
+
+#threeimg{
+    background-color: rgb(84, 84, 84);
+    border: solid rgb(84, 84, 84);
+    text-align: center;
+    padding: 30px;
+    
+}
+#threeimg img{
+    display: inline-block;
+    width: 23%;
+    border-radius: 50%;
+    border: 10px solid gray;
+    margin: 0 10px;
+}
+
+#hfoor h6 {
+    text-align: center;
+}
