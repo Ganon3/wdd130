@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
+
+* {
+    border: 2px solid darkblue;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -16,10 +22,11 @@ main section image {box-sizing: border-box;}
 
 body {background-color: #FBF8F2;}
 header {background-color: #D4CA85;}
-nav a{color: #275738; text-decoration: none; font-size: 1.2em;}
+nav a{color: #275738; text-decoration: none; font-size: 1.2em; padding: 35px;}
 nav a:hover {color: #4B362A;}
 .book, .join {
-    color:#275738; 
+    color:#275738;
+    background-color: #d9c2a3; 
     text-decoration: none; 
     font-size: 1.2em;  
     padding: 15px 30px; 
@@ -29,7 +36,7 @@ nav a:hover {color: #4B362A;}
 .book:hover, .join:hover {color: #3D7E55;}
 .msg {color:#975D2E; padding: 35px;}
 .msg p {padding-bottom: 15px;}
-footer {background-color: #FBF8F2; padding:25px 50px; margin-top: 200px;}
+footer {background-color: #FBF8F2; padding: 25px 50px; margin-top: 200px;}
 footer a {color: #275738; text-decoration: none; font-size: 1.2em;}
 footer:hover {color: #4B362A;}
 footer .social img {padding-top: 15px;}
@@ -156,6 +163,7 @@ footer {
     border: 10px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #FBF8F2;
+
 }
 
 .card-img:hover {
@@ -168,6 +176,7 @@ footer {
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+    line-height: 1.5em;
 }
 .mountains {
     width: 100%;
@@ -200,6 +209,8 @@ footer {
     .home-title {
         font-size: 25px;
         color: #6f7364;
+        font-family: 'Rock Salt', sand-serif;
+        font-size: 2em;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
