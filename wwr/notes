@@ -27,3 +27,6 @@ inherit - specifies that the margin should be inherited from the parent element
 
 If I wanted to include the padding and border amounts in the total width of the element
 box-sizing: border-box
+
+for grid stuff
+https://css-tricks.com/snippets/css/complete-guide-grid/
