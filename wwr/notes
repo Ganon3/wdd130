@@ -33,4 +33,4 @@ https://css-tricks.com/snippets/css/complete-guide-grid/
 
 justify aligns horizontal by default, align takes care of the other direction (vertical alignment by default). If we want to align the grid container, we use the content suffix. If we want to align the contents of the grid items within the grid cells, then we use items. example justify-content.
 
-testing
+helping myself grow
