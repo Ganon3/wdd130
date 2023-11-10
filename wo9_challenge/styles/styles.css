@@ -1,0 +1,49 @@
+
+body {
+    background-color: black;
+}
+
+#content {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+img {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px 15px 0px 0px;
+}
+
+main {
+    text-align: center;
+}
+main h4 {
+    margin-bottom: -20px;
+}
+main p {
+    margin: 0px 20px 20px 20px;
+    overflow: scroll;
+    max-height: 400px;
+}
+
+sup {
+    vertical-align:top;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    /*border-radius: 0px 0px 15px 15px;*/ 
+}   
+footer div {
+    background-color: steelblue;
+    border: 1px solid gray;
+}
+footer div p {
+    margin-top: -20px;
+}
