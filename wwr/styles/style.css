@@ -54,6 +54,13 @@ footer .social img {padding-top: 15px;}
 .icon {padding-top: 10px;}
 .home-title {margin-top: 10px;}
 .card-img {border: 10px #4B362A;}
+.card-img {
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #FBF8F2;
+
+}
+
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
@@ -91,7 +98,9 @@ nav {
     justify-content: space-around;
 }
 
-
+#heor-img {
+    width: 100%;
+}
 
 #hero {
     display: grid;
@@ -118,7 +127,7 @@ nav {
     margin-top: 100px;
 }
 
-.card-img, .mountains {
+.mountains {
     width: 100%;
 }
 
@@ -158,14 +167,6 @@ footer {
     margin-top: 200px; 
     display: flex;
     justify-content: space-around;
-}
-
-
-.card-img {
-    border: 10px solid #d9c2a3;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #FBF8F2;
-
 }
 
 .card-img:hover {
