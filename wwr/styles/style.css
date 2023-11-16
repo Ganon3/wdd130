@@ -15,8 +15,13 @@ header {
 }
 
 nav a {text-align: center; padding: 35px;}
+nav a {color: #275738; text-decoration: none; font-size: 1.2em; padding: 35px;}
+nav a:hover {color: #4B362A;}
+
 #hero-msg h1, #hero-msg h4 {text-align: center; color: #FBF8F2;}
+
 .button-box {text-align: center;}
+
 main section {text-align: center;}
 main section image {box-sizing: border-box;}
 
@@ -27,8 +32,7 @@ main section image {box-sizing: border-box;}
 
 body {background-color: #FBF8F2;}
 header {background-color: #D4CA85;}
-nav a {color: #275738; text-decoration: none; font-size: 1.2em; padding: 35px;}
-nav a:hover {color: #4B362A;}
+
 .book, .join {
     color:#275738;
     background-color: #d9c2a3; 
@@ -67,6 +71,8 @@ h2 {
 
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 .mountains {
@@ -85,11 +91,7 @@ nav {
     justify-content: space-around;
 }
 
-#logo_link {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-}
+
 
 #hero {
     display: grid;
