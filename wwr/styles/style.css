@@ -51,14 +51,18 @@ footer:hover {color: #4B362A;}
 footer .social img {padding-top: 15px;}
 
 .logo {width: 80px;}
-.icon {padding-top: 10px;}
+
 .home-title {margin-top: 10px;}
 .card-img {border: 10px #4B362A;}
 .card-img {
     border: 10px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #FBF8F2;
-
+}
+.icon {
+    padding-top: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
 .rivers-card, .camping-card, .rapids-card {
