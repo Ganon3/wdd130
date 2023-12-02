@@ -231,6 +231,7 @@ h2 {
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 3;
+    margin-top: 10px;
 }
 #GGcomment1 {
     grid-column-start: 1;
