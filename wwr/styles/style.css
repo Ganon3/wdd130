@@ -190,71 +190,80 @@ h2 {
 #gridGalory {
     display: grid;
     padding: 10px;
-    /* gap: 30px; */
+    gap: 10px; 
     margin-top: -25px;
     max-width: 1600px;
-    border: 10px solid #275738;
+    /*border: 10px solid #275738;*/
     background-color: #d9c2a3;
     justify-content: center;
     justify-items: center;
     align-content: center;
-    grid-template-columns: repeat(4, calc(25% - 22px)); /* 350px */
-    grid-template-rows: repeat(4, 250px);    /* 250px */
+    grid-template-columns: repeat(4, calc(25% - 20px)); /* 350px */
+    grid-template-rows: repeat(4, 300px); 
     margin-bottom: -100px;
     
 }
 #gridGalory * {
-    /* margin: 10px; */
-    text-align: left;
-    font-size: 32px;
-    max-width: 800px;
-    box-sizing: border-box;
-    padding: 20px 0;
-}
-
-#mainImg {
     width: 100%;
+    font-size: 32px;
+    padding: 20px 0;
+    
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+   /*border: solid 2px #975D2E; */
+    
+}
+#GGimg {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
-}
-#mainP {
+    border: 5px solid #275738;
+    background-color: #275738;
+    margin-top: 10px;
+} 
+#GGmainP {
     overflow-y: auto;
     overflow-x: hidden;
-    max-height: 871px;
+    max-height: 871px; 
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 #GGcomment1 {
-    width: 100%;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 5;
 }
 #GGcomment2 {
-    width: 100%;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 5;
 }
 #GGcomment3 {
-    width: 100%;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 5;
 }
 #GGcomment4 {
-    width: 100%;
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 3;
     grid-row-end: 5;
+}
+.GGP {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.GGI {
+    border: 5px solid #275738;
+    background-color: #275738;
 }
 
 
